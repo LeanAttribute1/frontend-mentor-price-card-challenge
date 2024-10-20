@@ -32,6 +32,8 @@ body{
 }
 
 #bottom-section{
+  display: flex;
+  flex-direction: column;
   height: 60%;
   width: 100%;
   color: white;
@@ -129,8 +131,7 @@ ul{
   }  
   
   #bottom-left-section, #bottom-right-section{
-    display: block;
+    width:100%;
     padding: 30px;
-    box-sizing: border-box;
   }
 }
