@@ -1,7 +1,7 @@
 html{
   box-sizing: border-box;
-  background-color: #FAF9F6;
-  font-family: 'Karla', 'sans-serif';
+  background-color: white;
+  font-family: 'Karla';
   font-size: 16px;
 }
 
@@ -128,4 +128,9 @@ ul{
     width: 100%;
   }  
   
+  #bottom-left-section, #bottom-right-section{
+    display: block;
+    padding: 30px;
+    box-sizing: border-box;
+  }
 }
